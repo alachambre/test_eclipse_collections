@@ -1,0 +1,12 @@
+apply plugin: 'java-library'
+apply plugin: 'eclipse'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+	compile 'org.eclipse.collections:eclipse-collections-api:9.2.0'
+	compile 'org.eclipse.collections:eclipse-collections:9.2.0'
+}
+
